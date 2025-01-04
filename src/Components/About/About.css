@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    background-color: #1ABC9C;
+    height:85vh;
+}
+.line{
+    height: 4px;
+    width: 80px;
+    background-color:#ffff;
+}

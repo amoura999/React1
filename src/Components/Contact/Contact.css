@@ -1,0 +1,39 @@
+label {
+    color: #1abc9c;
+    margin-bottom: 7px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 0.3s all ease;
+    pointer-events: none;
+    opacity: 0; 
+    visibility: hidden;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 ;
+  }
+  
+  .form-control:focus + label,
+  .form-control:not(:placeholder-shown) + label {
+    top: -15px;
+    left: 10px;
+    font-size: 12px;
+    color: #1abc9c;
+    opacity: 1; 
+    visibility: visible;
+  }
+  

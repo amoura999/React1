@@ -1,0 +1,60 @@
+$primary-color: #2c3e50;
+$overlay-color: rgba(41, 177, 151, 0.9);
+$modal-background-color: rgba(93, 125, 170, 0.6);
+
+.linee {
+  height: 4px;
+  width: 80px;
+  background-color: $primary-color;
+}
+
+.text-center {
+  color: $primary-color;
+}
+
+.portfolio {
+  height: 85vh;
+}
+
+.card-container {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .overlay {
+    background-color: $overlay-color;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+
+    .icon-add {
+      font-size: 5rem;
+      color: white;
+    }
+  }
+
+  &:hover {
+    .overlay {
+      opacity: 1;
+    }
+  }
+}
+
+.image-modal {
+  background: $modal-background-color;
+  z-index: 1050;
+  cursor: pointer;
+
+  .modal-image {
+    max-width: 50%;
+    max-height: 50%;
+    cursor: auto;
+
+    &:hover {
+      transition: transform 0.3s ease;
+    }
+  }
+}

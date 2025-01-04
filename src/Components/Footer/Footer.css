@@ -1,0 +1,19 @@
+.footer {
+  background-color: #243342;
+  padding: 40px 0;
+}
+
+.amr {
+  border: 1px white solid;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.footer-end {
+  background-color: #1a252f;
+  padding: 15px 0;
+}
+
+.footer-end p {
+  margin-bottom: 0;
+}
